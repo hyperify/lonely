@@ -1,0 +1,34 @@
+$other-map: (
+  user-select: (
+    prefix: select,
+    values: all auto none text,
+  ),
+  pointer-events: (
+    prefix: pointer-event,
+    values: none auto,
+  ),
+);
+
+.rounded {
+  border-radius: 50% !important;
+}
+
+.fangs {
+  border-radius: none !important;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.clip {
+  overflow: hidden !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.small {
+  font-size: 0.85em !important;
+}

@@ -1,0 +1,35 @@
+@import "./function";
+@import "./size";
+@import "./display";
+@import "./position";
+@import "./overflow";
+@import "./flex";
+@import "./border";
+@import "./margin";
+@import "./padding";
+@import "./font";
+@import "./other";
+
+$map: map-collect(
+  $size-map,
+  $display-map,
+  $position-map,
+  $overflow-map,
+  $border-map,
+  $flex-map,
+  $margin-map,
+  $padding-map,
+  $font-map,
+  $other-map
+);
+
+@each $property, $property-value in $map {
+  $values: map-get($property-value, values);
+
+  @each $describe, $value in $values {
+    // 如果属性值中存在前缀则使用前缀，否则使用属性作为前缀
+    .#{if(map-has-key($property-value, prefix), map-get($property-value, prefix), $property)}-#{$describe} {
+      #{$property}: if(is-map($values), $value, $describe) !important;
+    }
+  }
+}

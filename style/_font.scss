@@ -1,0 +1,18 @@
+$font-map: (
+  font-weight: (
+    prefix: font,
+    values: light lighter normal bold bolder,
+  ),
+  line-height: (
+    prefix: line-hg,
+    values: 0 1,
+  ),
+  text-align: (
+    prefix: text,
+    values: left right center,
+  ),
+  white-space: (
+    prefix: text,
+    values: wrap nowrap,
+  ),
+);

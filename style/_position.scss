@@ -1,0 +1,35 @@
+$position-map: (
+  position: (
+    prefix: pos,
+    values: static relative absolute fixed sticky,
+  ),
+  top: (
+    values: (
+      0: 0,
+      50: 50%,
+      full: 100%,
+    ),
+  ),
+  left: (
+    values: (
+      0: 0,
+      50: 50%,
+      full: 100%,
+    ),
+  ),
+  bottom: (
+    prefix: btm,
+    values: (
+      0: 0,
+      50: 50%,
+      full: 100%,
+    ),
+  ),
+  right: (
+    values: (
+      0: 0,
+      50: 50%,
+      full: 100%,
+    ),
+  ),
+);

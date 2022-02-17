@@ -1,0 +1,29 @@
+{
+  "name": "@hyperify/lonely",
+  "version": "1.0.0",
+  "description": "atom css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "sass ./style/index.scss:./dist/lonely.css --watch",
+    "build": "sass ./style/index.scss:./dist/lonely.min.css",
+    "release": "npm run build && npm run build -- --style compressed && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperify/lonely.git"
+  },
+  "keywords": [
+    "atom-css"
+  ],
+  "author": "HyperLife1119",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperify/lonely/issues"
+  },
+  "homepage": "https://github.com/hyperify/lonely#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
