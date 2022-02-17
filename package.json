@@ -19,6 +19,9 @@
   ],
   "author": "HyperLife1119",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/hyperify/lonely/issues"
   },
