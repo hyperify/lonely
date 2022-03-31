@@ -3,6 +3,10 @@ $font-map: (
     prefix: font,
     values: light lighter normal bold bolder,
   ),
+  font-style: (
+    prefix: font,
+    values: normal italic oblique,
+  ),
   line-height: (
     prefix: line-hg,
     values: 0 1,
