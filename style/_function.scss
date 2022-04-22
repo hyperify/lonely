@@ -10,3 +10,7 @@
   }
   @return $collection;
 }
+
+@function color-to-rgb($color) {
+  @return #{red($color)}, #{green($color)}, #{blue($color)};
+}

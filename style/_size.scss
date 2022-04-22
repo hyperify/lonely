@@ -13,13 +13,23 @@ $size-map: (
   min-width: (
     prefix: min-wd,
     values: (
+      0: 0,
+      25: 25%,
+      50: 50%,
+      75: 75%,
       full: 100%,
+      auto: auto,
     ),
   ),
   max-width: (
     prefix: max-wd,
     values: (
+      0: 0,
+      25: 25%,
+      50: 50%,
+      75: 75%,
       full: 100%,
+      auto: auto,
     ),
   ),
   height: (
@@ -36,13 +46,23 @@ $size-map: (
   min-height: (
     prefix: min-hg,
     values: (
+      0: 0,
+      25: 25%,
+      50: 50%,
+      75: 75%,
       full: 100%,
+      auto: auto,
     ),
   ),
   max-height: (
     prefix: max-hg,
     values: (
+      0: 0,
+      25: 25%,
+      50: 50%,
+      75: 75%,
       full: 100%,
+      auto: auto,
     ),
   ),
 );
