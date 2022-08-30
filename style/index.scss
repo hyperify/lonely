@@ -9,6 +9,7 @@
 @import "./padding";
 @import "./font";
 @import "./other";
+@import "./zindex";
 
 $map: map-collect(
   $size-map,
@@ -20,7 +21,8 @@ $map: map-collect(
   $margin-map,
   $padding-map,
   $font-map,
-  $other-map
+  $other-map,
+  $zindex-map
 );
 
 @each $property, $property-value in $map {
