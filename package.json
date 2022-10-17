@@ -1,6 +1,6 @@
 {
   "name": "@hyperify/lonely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "atom css",
   "files": [
     "dist"
